@@ -1,7 +1,7 @@
 def pipelineContext = [:]
 node {
 
-    def registryProjet = 'registry.gitlab.com/Attissou3003/presentations-jenkins'
+    def registryProjet = 'registry.gitlab.com/attissou3003/presentations-jenkins'
 
     // Charge la version depuis un fichier ou une variable d'environnement
     def versionFile = 'version.txt' // Par exemple, un fichier version.txt dans le repository
